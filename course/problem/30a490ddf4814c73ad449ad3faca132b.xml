@@ -1,0 +1,12 @@
+<problem display_name="Multiple choice with λ" markdown="This problem has no Rapid Response, but uses unicode text in the response. It is merely meant to demonstrate that these characters are otherwise acceptable, and that the bug must be in the Rapid Response code. &#10;&#10;&gt;&gt;Try each one and confirm that you can reply with any of the answers&lt;&lt;&#10;&#10;( ) this one works&#10;(x) this one, with a λ will fail&#10;( ) does an acccent like ç cause the same problem?&#10;( ) 这有用吗？&#10;&#10;">
+  <multiplechoiceresponse>
+    <p>This problem has no Rapid Response, but uses unicode text in the response. It is merely meant to demonstrate that these characters are otherwise acceptable, and that the bug must be in the Rapid Response code. </p>
+    <label>Try each one and confirm that you can reply with any of the answers</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">this one works</choice>
+      <choice correct="true">this one, with a λ will fail</choice>
+      <choice correct="false">does an acccent like ç cause the same problem?</choice>
+      <choice correct="false">这有用吗？</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

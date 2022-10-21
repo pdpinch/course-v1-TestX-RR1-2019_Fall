@@ -1,0 +1,18 @@
+<problem display_name="Lecture 2 clicker 1" markdown="&gt;&gt;In two periods, the wave travels&#10; &lt;&lt;&#10;&#10;( ) 1. 2/λ&#10;( ) 2. 1 λ&#10;(X) 3. 2 λ&#10;( ) 4. None of the above&#10;[explanation]&#10;In each period, the wave will travel a distance equal to its wavelength, so in two periods, the wave will travel 2 wavelengths.&#10;[explanation]&#10;" rerandomize="never" showanswer="past_due">
+  <multiplechoiceresponse>
+    <label>In two periods, the wave travels
+ </label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">1. 2/λ</choice>
+      <choice correct="false">2. 1 λ</choice>
+      <choice correct="true">3. 2 λ</choice>
+      <choice correct="false">4. None of the above</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>In each period, the wave will travel a distance equal to its wavelength, so in two periods, the wave will travel 2 wavelengths.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+<rapid_response_xblock xmlns:option="http://code.edx.org/xblock/option" xmlns:block="http://code.edx.org/xblock/block" xblock-family="xblock_asides.v1" enabled="true"/></problem>

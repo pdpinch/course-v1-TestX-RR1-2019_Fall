@@ -1,0 +1,14 @@
+<problem display_name="'Rapid Response with λ'" markdown="This problem demonstrates a bug in the Rapid Response code. &#10;&#10;If the answer text includes a Unicode character, such as λ, the users gets an error message and the response isn't recorded. &#10;&#10;If the answer text only has ASCII characters, it behaves normally. &#10;&#10;&gt;&gt;Try each one and confirm that you can reply with the first answer, but not the others&lt;&lt;&#10;&#10;( ) this one works&#10;(x) this one, with a λ will fail&#10;( ) does an acccent like ç cause the same problem?&#10;( ) 这有用吗？&#10;&#10;">
+  <multiplechoiceresponse>
+    <p>This problem demonstrates a bug in the Rapid Response code. </p>
+    <p>If the answer text includes a Unicode character, such as λ, the users gets an error message and the response isn't recorded. </p>
+    <p>If the answer text only has ASCII characters, it behaves normally. </p>
+    <label>Try each one and confirm that you can reply with the first answer, but not the others</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">this one works</choice>
+      <choice correct="true">this one, with a λ will fail</choice>
+      <choice correct="false">does an acccent like ç cause the same problem?</choice>
+      <choice correct="false">这有用吗？</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+<rapid_response_xblock xmlns:option="http://code.edx.org/xblock/option" xmlns:block="http://code.edx.org/xblock/block" xblock-family="xblock_asides.v1" enabled="true"/></problem>
